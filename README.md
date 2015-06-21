@@ -2,7 +2,7 @@
 Sends desired render target texture to Spout if UE4 is running in OpenGL mode
 
 # Requirements
-1. Unreal Engine 4 4.8+ built from C++ Source on Github
+1. Unreal Engine 4 4.8+ built from C++ Source on GitHub
 1. Unreal Engine 4 4.8+ C++ Project (Could be blank C++ template project)
 1. Visual Studio 2013, Express should work, recommend Community Edition (its free, yo)
 1. Willingness to put up with instability

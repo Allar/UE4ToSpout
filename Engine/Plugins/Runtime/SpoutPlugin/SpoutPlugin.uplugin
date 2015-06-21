@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Spout Plugin",
+	"Description": "Sends a render texture to Spout",
+	"Category": "Spout",
+	"CreatedBy": "Michael Allar @michaelallar",
+	"CreatedByURL": "http://allarsblog.com",
+	"DocsURL": "https://github.com/Allar/UE4ToSpout",
+	"MarketplaceURL": "",
+	"Modules": [
+		{
+			"Name": "SpoutPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+}

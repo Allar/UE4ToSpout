@@ -15,6 +15,7 @@ Sends desired render target texture to Spout if UE4 is running in OpenGL mode
 1. Add a reference to SpoutPlugin in your Unreal Project Build file
 1. Run GenerateProjectFiles.bat in your Unreal root folder
 1. Compile Unreal Engine 4 and your project
+1. Make sure to open your project in OpenGL mode by adding the -opengl command line to your editor
 1. At some point during a level play, create a render target using the Create Render Target 2D With One Copy Blueprint node
 1. Feed whatever you want into that render target texture
 1. Be sure to call Set Spout Sender Texture Source with the render target you created

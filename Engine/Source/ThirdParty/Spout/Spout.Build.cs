@@ -18,18 +18,18 @@ public class Spout : ModuleRules
         if (Target.Platform == UnrealTargetPlatform.Win32)
         {
             PublicLibraryPaths.Add(UEBuildConfiguration.UEThirdPartySourceDirectory + "Spout/Win32");
-            PublicAdditionalLibraries.Add("Spout.lib");
+            PublicAdditionalLibraries.Add("Spout32.lib");
 
             string SpoutBinariesDir = String.Format("$(EngineDir)/Binaries/ThirdParty/Spout/Win32/");
-            RuntimeDependencies.Add(new RuntimeDependency(SpoutBinariesDir + "Spout.dll"));
+            RuntimeDependencies.Add(new RuntimeDependency(SpoutBinariesDir + "Spout32.dll"));
         }
         else if (Target.Platform == UnrealTargetPlatform.Win64)
         {
             PublicLibraryPaths.Add(UEBuildConfiguration.UEThirdPartySourceDirectory + "Spout/Win64");
-            PublicAdditionalLibraries.Add("Spout.lib");
+            PublicAdditionalLibraries.Add("Spout64.lib");
 
             string SpoutBinariesDir = String.Format("$(EngineDir)/Binaries/ThirdParty/Spout/Win64/");
-            RuntimeDependencies.Add(new RuntimeDependency(SpoutBinariesDir + "Spout.dll"));
+            RuntimeDependencies.Add(new RuntimeDependency(SpoutBinariesDir + "Spout64.dll"));
         }
         else if (Target.Platform == UnrealTargetPlatform.Mac)
         {
